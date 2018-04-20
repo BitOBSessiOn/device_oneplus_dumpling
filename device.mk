@@ -24,6 +24,8 @@
 
 $(call inherit-product, vendor/oneplus/dumpling/dumpling-vendor.mk)
 
+#TARGET_NO_RECOVERY := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 

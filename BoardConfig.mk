@@ -22,6 +22,11 @@
 # definition file).
 #
 
+#TARGET_BUILD_VARIANT := eng
+# eng, user, userdebug (default)
+#TARGET_BUILD_TYPE := release
+# release (default), debug 
+
 # Inherit from oneplus msm8998-common
 -include device/oneplus/msm8998-common/BoardConfigCommon.mk
 
